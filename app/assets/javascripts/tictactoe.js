@@ -76,7 +76,7 @@ var checkWinner = function() {
     return win
 }
 
-var message = function(text) {
+var setmessage = function(text) {
     $('#message').html(text)
 }
 
