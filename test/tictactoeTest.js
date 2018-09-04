@@ -289,7 +289,7 @@ describe('tictactoe.js', () => {
       squares[0].click();
       squares[8].click();
 
-      expect(spy.firstCall.args[0]).to.equal(squares[0]);
+    
       expect(spy.secondCall.args[0]).to.equal(squares[8]);
     });
   });
