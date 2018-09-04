@@ -55,7 +55,7 @@ var player = function() {
 
 var tieGame = function() {
     if (turn == 8) {
-        message("Tie game");
+        setMessage("Tie game");
         return true;
     }
     return false;
