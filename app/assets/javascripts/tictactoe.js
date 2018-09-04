@@ -72,7 +72,7 @@ var checkWinner = function() {
     })
 
     //if win show winMessage
-    if (win) message("Player " + player() + " Won!")
+    if (win) setMessage("Player " + player() + " Won!")
     return win
 }
 
