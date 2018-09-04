@@ -70,7 +70,7 @@ var checkWinner = function() {
     })
 
     //if win show winMessage
-    if (win) setMessage("Player " + player() + " Won!")
+    if (win == true) setMessage("Player " + player() + " Won!")
     return win
 }
 
