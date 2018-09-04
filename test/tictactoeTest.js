@@ -185,7 +185,7 @@ describe('tictactoe.js', () => {
 
       window.checkWinner();
 
-      expect(spy.firstCall.args[0]).to.equal('Player O Won!');
+      expect(spy.firstCall.args[0]).to.equal('Player X Won!');
     });
   });
 
